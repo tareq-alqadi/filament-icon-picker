@@ -15,6 +15,7 @@ class FilamentIconPickerServiceProvider extends PackageServiceProvider
             ->name('filament-icon-picker')
             ->hasViews()
             ->hasConfigFile('icon-picker')
+            ->hasTranslations()
         ;
     }
 
