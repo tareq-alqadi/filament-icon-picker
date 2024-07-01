@@ -12,7 +12,7 @@
             $size = $getSize($state) ?? IconColumnSize::Large;
         @endphp
 
-        <x-filament::icon :name="$icon" @class([
+        <x-filament::icon :icon="$icon" @class([
             'fi-ta-icon-item',
             match ($size) {
                 IconColumnSize::ExtraSmall, 'xs' => 'fi-ta-icon-item-size-xs h-3 w-3',
