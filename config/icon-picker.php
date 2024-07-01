@@ -58,7 +58,7 @@ return [
     | grid view.
     |
     */
-    'layout' => \Guava\FilamentIconPicker\Layout::FLOATING,
+    'layout' => \TareqAlqadi\FilamentIconPicker\Layout::FLOATING,
 
     /*
     |--------------------------------------------------------------------------

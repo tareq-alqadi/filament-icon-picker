@@ -1,6 +1,6 @@
 <?php
 
-namespace Guava\FilamentIconPicker\Tables;
+namespace TareqAlqadi\FilamentIconPicker\Tables;
 
 use Filament\Tables\Columns\Column;
 

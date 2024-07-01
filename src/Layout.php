@@ -1,6 +1,6 @@
 <?php
 
-namespace Guava\FilamentIconPicker;
+namespace TareqAlqadi\FilamentIconPicker;
 
 class Layout
 {

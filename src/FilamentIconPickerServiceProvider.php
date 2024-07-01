@@ -1,6 +1,6 @@
 <?php
 
-namespace Guava\FilamentIconPicker;
+namespace TareqAlqadi\FilamentIconPicker;
 use Filament\Support\Assets\Css;
 use Filament\Support\Facades\FilamentAsset;
 use Spatie\LaravelPackageTools\Package;
@@ -24,7 +24,7 @@ class FilamentIconPickerServiceProvider extends PackageServiceProvider
 
         FilamentAsset::register([
             Css::make('filament-icon-picker-stylesheet', __DIR__ . '/../dist/plugin.css'),
-        ], package: 'guava/filament-icon-picker');
+        ], package: 'TareqAlqadi/filament-icon-picker');
     }
 
 }

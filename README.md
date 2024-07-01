@@ -2,9 +2,9 @@
 
 # Filament Icon Picker
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/guava/filament-icon-picker.svg?style=flat-square)](https://packagist.org/packages/guava/filament-icon-picker)
-![Packagist PHP Version](https://img.shields.io/packagist/dependency-v/guava/filament-icon-picker/php?style=flat-square)
-[![Total Downloads](https://img.shields.io/packagist/dt/guava/filament-icon-picker.svg?style=flat-square)](https://packagist.org/packages/guava/filament-icon-picker)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/TareqAlqadi/filament-icon-picker.svg?style=flat-square)](https://packagist.org/packages/TareqAlqadi/filament-icon-picker)
+![Packagist PHP Version](https://img.shields.io/packagist/dependency-v/TareqAlqadi/filament-icon-picker/php?style=flat-square)
+[![Total Downloads](https://img.shields.io/packagist/dt/TareqAlqadi/filament-icon-picker.svg?style=flat-square)](https://packagist.org/packages/TareqAlqadi/filament-icon-picker)
 
 [//]: # ([![GitHub Tests Action Status]&#40;https://img.shields.io/github/workflow/status/:vendor_slug/:package_slug/run-tests?label=tests&#41;]&#40;https://github.com/:vendor_slug/:package_slug/actions?query=workflow%3Arun-tests+branch%3Amain&#41;)
 [//]: # ([![GitHub Code Style Action Status]&#40;https://img.shields.io/github/workflow/status/LukasFreyCZ/filament-icon-picker/Check%20&%20fix%20styling?label=code%20style&#41;]&#40;https://github.com/LukasFreyCZ/filament-icon-picker/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain&#41;)
@@ -25,12 +25,12 @@ You can install the package via composer:
 
 **Filament v3:**
 ```bash
-composer require guava/filament-icon-picker:"^2.0"
+composer require TareqAlqadi/filament-icon-picker:"^2.0"
 ```
 
 **Filament v2:**
 ```bash
-composer require guava/filament-icon-picker:"^1.0"
+composer require TareqAlqadi/filament-icon-picker:"^1.0"
 ```
 
 You can publish the config file with:
@@ -50,7 +50,7 @@ return [
 
     'columns' => 1,
 
-    'layout' => \Guava\FilamentIconPicker\Layout::FLOATING,
+    'layout' => \TareqAlqadi\FilamentIconPicker\Layout::FLOATING,
     
     'cache' => [
         'enabled' => true,
@@ -67,7 +67,7 @@ return [
 ### Basic Usage
 Usage in Admin Panel:
 ```php
-use Guava\FilamentIconPicker\Forms\IconPicker;
+use TareqAlqadi\FilamentIconPicker\Forms\IconPicker;
 
 public static function form(Form $form): Form
 {
@@ -80,7 +80,7 @@ public static function form(Form $form): Form
 
 Usage in Livewire Component:
 ```php
-use Guava\FilamentIconPicker\Forms\IconPicker;
+use TareqAlqadi\FilamentIconPicker\Forms\IconPicker;
 
 protected function getFormSchema(): array
 {
@@ -94,7 +94,7 @@ protected function getFormSchema(): array
 Usage in Tables:
 ```php
 // Make sure this is the correct import, not the filament one
-use Guava\FilamentIconPicker\Tables\IconColumn;
+use TareqAlqadi\FilamentIconPicker\Tables\IconColumn;
 
 public static function table(Table $table): Table
 {
@@ -238,5 +238,5 @@ Please review [our security policy](../../security/policy) on how to report secu
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
 ## Other packages
-- [Laravel Populator](https://github.com/GuavaCZ/laravel-populator)
-- [Filament Drafts](https://github.com/GuavaCZ/filament-drafts)
+- [Laravel Populator](https://github.com/TareqAlqadiCZ/laravel-populator)
+- [Filament Drafts](https://github.com/TareqAlqadiCZ/filament-drafts)

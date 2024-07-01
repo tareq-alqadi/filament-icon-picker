@@ -1,13 +1,13 @@
 <?php
 
-namespace Guava\FilamentIconPicker\Forms;
+namespace TareqAlqadi\FilamentIconPicker\Forms;
 
 
 use BladeUI\Icons\Factory as IconFactory;
 use Closure;
 use Filament\Forms\Components\Select;
-use Guava\FilamentIconPicker\Forms\Concerns\CanBeCacheable;
-use Guava\FilamentIconPicker\Layout;
+use TareqAlqadi\FilamentIconPicker\Forms\Concerns\CanBeCacheable;
+use TareqAlqadi\FilamentIconPicker\Layout;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Support\Benchmark;

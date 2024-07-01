@@ -1,6 +1,6 @@
 <?php
 
-namespace Guava\FilamentIconPicker\Forms\Concerns;
+namespace TareqAlqadi\FilamentIconPicker\Forms\Concerns;
 
 use Closure;
 use DateInterval;

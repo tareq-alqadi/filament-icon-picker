@@ -1,5 +1,5 @@
 {
-  "name": "@guava/filament-icon-picker",
+  "name": "@TareqAlqadi/filament-icon-picker",
   "scripts": {
     "dev": "npx tailwindcss -i resources/css/plugin.css -o dist/plugin.css --postcss --watch",
     "build": "npx tailwindcss -i resources/css/plugin.css -o dist/plugin.css --postcss --minify && npm run purge",
